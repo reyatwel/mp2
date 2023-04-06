@@ -11,10 +11,14 @@ export default function HomeHeader() {
         <Link href="https://www.google.com.ph/imghp?hl=en&ogbl" className="hover:underline">
           Images
         </Link>
-        <TbGridDots className="bg-transparent hover:bg-gray-200 rounded-full text-4xl p-2" />
-        <button className="bg-[#993366] text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-shadow">
-          Sign in
-        </button>
+        <Link href="https://about.google/">
+          <TbGridDots className="bg-transparent hover:bg-gray-200 rounded-full text-4xl p-2" />
+        </Link>
+        <Link href="https://accounts.google.com/">
+          <button className="bg-[#993366] text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-shadow">
+            Sign in
+          </button>
+        </Link>
       </div>
     </header>
   )
