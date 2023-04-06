@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Red Onion Search',
-  description: 'Red Onion Search App',
+  title: 'RedOnion Search',
+  description: 'RedOnion Search App',
 }
 
 export default function RootLayout({ children }) {
