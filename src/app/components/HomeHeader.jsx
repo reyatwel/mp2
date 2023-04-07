@@ -15,7 +15,7 @@ export default function HomeHeader() {
           <TbGridDots className="bg-transparent hover:bg-gray-200 rounded-full text-4xl p-2" />
         </Link>
         <Link href="https://accounts.google.com/">
-          <button className="bg-[#993366] text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-shadow">
+          <button className="btn2">
             Sign in
           </button>
         </Link>
