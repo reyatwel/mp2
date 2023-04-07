@@ -47,7 +47,7 @@ export default function HomeSearch() {
             type="text" 
             className="flex-grow focus:outline-none"   
         />
-        <BiMicrophone className="text-lg" />
+        <BiMicrophone className="text-xl text-gray-500" />
       </form>
 
       <div className="flex flex-col space-y-2 sm:space-y-0 sm:space-x-4 justify-center sm:flex-row mt-8">
