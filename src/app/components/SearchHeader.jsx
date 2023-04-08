@@ -10,12 +10,13 @@ export default function SearchHeader() {
     <header className="sticky top-0 bg-white">
       <div className="flex w-full p-6 items-center justify-between">
         <Link href={"/"}>
-        <Image 
-          src="/logo.png"
-          width="150"  
-          height="50"        
-          alt="logo"
-        />
+        <picture>                
+          <img 
+            src="/logo.png" 
+            alt="logo" 
+            className="h-fit w-40"
+          />
+        </picture>        
         </Link>
         <div className="flex-1">
           <SearchBox />

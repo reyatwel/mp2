@@ -5,17 +5,16 @@ import HomeSearch from "./components/HomeSearch";
 export default function Home() {
   return (
     <>
-      {/* Header */}
       <HomeHeader />
 
-      {/* Body */}
       <div className="flex flex-col items-center mt-24">
-        <Image 
-          src="/banner.png"
-          width="300"  
-          height="100"        
-          alt="banner logo"
-        />
+        <picture>                
+          <img 
+            src="/banner.png" 
+            alt="banner logo" 
+            className="h-fit w-80"
+          />
+        </picture>
 
         <HomeSearch />
       </div>

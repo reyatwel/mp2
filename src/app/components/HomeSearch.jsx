@@ -29,6 +29,8 @@ export default function HomeSearch() {
 
       if (!response) return;
 
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
       router.push(`/search/web?searchTerm=${response}`);
 
       setRandomSearchLoading(false);
