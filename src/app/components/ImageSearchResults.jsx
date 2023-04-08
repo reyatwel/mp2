@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Pagination from "./Pagination";
 
 export default function ImageSearchResults({ results }) {
   return (
@@ -29,6 +30,9 @@ export default function ImageSearchResults({ results }) {
             </div>
           </div>
         ))}
+      </div>
+      <div className="ml-16">
+        <Pagination />
       </div>      
     </div>
   );
